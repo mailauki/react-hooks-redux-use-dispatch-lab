@@ -3,7 +3,6 @@ import { useSelector } from "react-redux";
 
 function Restaurants() {
   const restaurants = useSelector((state) => state.restaurants);
-
   return (
     <div>
       <ul>
